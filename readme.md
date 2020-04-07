@@ -1,0 +1,1 @@
+This is a basic bot. It doesn't do much yet.
