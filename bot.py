@@ -1,18 +1,17 @@
 from discord.ext import commands
-import json
+import Utils.Config as Config
 
-config = open('cfg.json')
-data = json.load(config)
-token = data['token']
-
+data = Config.get_data()
+token = data['discord_token']
 bot = commands.Bot(command_prefix='.')
 
 @bot.event
 async def on_ready():
     print(f'Connection established.')
 
-@bot.command()
-async def test(ctx, arg):
-    await ctx.send(arg)
+
+extensions = data['extensions']
+for extension in extensions:
+    bot.load_extension(f'Extensions.{extension}')
 
 bot.run(token)

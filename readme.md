@@ -1,1 +1,5 @@
-This is a basic bot. It doesn't do much yet.
+#KommBot
+
+Or "Gordon's bot" or whatever you want to call it. It's still pretty basic right now, but at least it has the "core" functionality down. It uses discord.py and Tweepy to get tweets and put them into discord. To sum it up, there's the main bot.py which boots up the bot and loads various extensions that are located in the Extensions folder. The config file is used to supply the various authentication keys, choose what extensions to load (currently there's only the "test" one with various useless functions and the "twitter" one to get tweets), and choose what twitter pages to get tweets from. Chcek out the sample config if this description makes no sense.
+
+Anyways, it's not complete. I still have to clean up the code and figure out a way to deploy this thing into the cloud or something. And error checking. That would be nice to add.
