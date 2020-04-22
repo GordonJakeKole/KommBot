@@ -1,3 +1,4 @@
+import discord
 from discord.ext import commands
 import Utils.Config as Config
 
@@ -7,8 +8,9 @@ bot = commands.Bot(command_prefix='.')
 
 @bot.event
 async def on_ready():
-    print(f'Connection established.')
-
+    activity = discord.Activity(name='C2 Twitter', type=discord.ActivityType.watching)
+    await bot.change_presence(activity=activity)
+    print(f'KommBot is a go.')
 
 extensions = data['extensions']
 for extension in extensions:

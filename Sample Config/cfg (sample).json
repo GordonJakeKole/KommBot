@@ -1,0 +1,25 @@
+{
+	"discord_token": "YOUR DISCORD TOKEN HERE",
+	"extensions": ["twitter"],
+	"twitter_ext" :
+		{
+		"twitter" : 
+			{
+			"consumer_key" : "YOUR TWITTER CONSUMER KEY HERE",
+			"consumer_key_secret" : "YOUR TWITTER CONSUMER KEY SECRET HERE",
+			"access_token" : "YOUR TWITTER ACCESS TOKEN HERE",
+			"access_token_secret" : "YOUR TWITTER ACCESS TOKEN SECRET HERE",
+			"acct_names" : ["KanColle_STAFF", "C2_STAFF"]
+			},
+		"azure" :
+			{
+			"translate_key" : "YOUR AZURE TRANSLATE KEY HERE",
+			"from_lang" : "ja",
+			"to_lang" : "en",
+			"dynamic_dict" : 
+				{
+				"艦これ" : "KanColle"
+				}
+			}
+		}
+}
