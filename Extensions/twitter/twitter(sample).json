@@ -1,0 +1,24 @@
+{
+"twitter" : 
+	{
+	"consumer_key" : "YOUR TWITTER CONSUMER KEY HERE",
+	"consumer_key_secret" : "YOUR TWITTER CONSUMER KEY SERCRET HERE",
+	"access_token" : "YOUR TWITTER ACCESS TOKEN HERE",
+	"access_token_secret" : "YOUR TWITTER ACCESS TOKEN HERE"
+	},
+"azure" :
+	{
+	"translate_key" : "YOUR AZURE TRANSLATE KEY HERE",
+	"translate_endpoint" : "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0",
+	"languages" : ["af", "ar", "bn", "bs", "bg", "yue", "ca", "zh-Hans", "zh-Hant", "hr", "cs", "da", "nl", "en", "et", "fj", "fil", "fi", "fr", "de", "el", "gu", "ht", "he", "hi", "mww", "hu", "is", "id", "ga", "it", "ja", "kn", "sw", "tlh", "tlh-Qaak", "ko", "lv", "lt", "mg", "ms", "ml", "mt", "mi", "mr", "nb", "fa", "pl", "pt", "pt-br", "pt-pt", "pa", "otq", "ro", "ru", "sm", "sr-Cyrl", "sr-Latn", "sk", "sl", "es", "sv", "ty", "ta", "tw", "th", "to", "tr", "uk", "ur", "vi", "cy", "yua"],
+	"dynamic_dict" : 
+		{
+		"艦これ" : "KanColle"
+		}
+	},
+"accounts" : 
+	{
+	"KanColle_STAFF" : ["ja", "en"],
+	"C2_STAFF" : ["ja", "en"]
+	}
+}
